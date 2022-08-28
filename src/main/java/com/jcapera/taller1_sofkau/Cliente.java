@@ -16,7 +16,9 @@ public class Cliente extends Persona{
     protected String address;
 
     public Cliente(String name, String lastName1, String lastName2, Date dateBirth, float height, String phone, String address) {
-        super(name, lastName1, lastName2, dateBirth, height, phone, address);
+        super(name, lastName1, lastName2, dateBirth, height);
+        this.phone = phone;
+        this.address = address;
     }
 
     public String getPhone() {

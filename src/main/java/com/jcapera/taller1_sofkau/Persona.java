@@ -7,7 +7,7 @@ package com.jcapera.taller1_sofkau;
 import java.util.Date;
 
 /**
- * Esta será mi clase padre para crear objetos de tipo cliente al heredar a la clase hija Cliente
+ * Esta será mi clase padre para crear objetos de tipo cliente al heredar a la clase hija Cliente y Programador
  * @author caper
  */
 public class Persona {
@@ -17,7 +17,7 @@ public class Persona {
     public Date dateBirth;
     public float height;
    
-    public Persona(String name, String lastName1, String lastName2, Date dateBirth, float height, String phone, String address) {
+    public Persona(String name, String lastName1, String lastName2, Date dateBirth, float height) {
         this.name = name;
         this.lastName1 = lastName1;
         this.lastName2 = lastName2;
@@ -26,8 +26,14 @@ public class Persona {
         
     }
     
-    public void programarJava(){
-        System.out.println("Soy un programador que utiliza el framework de SpringBoot");
+      public String work(){
+        String work = "Algun dia programare para Sofka"; 
+        System.out.println(work);
+        return work;
     }
-    
+      
+     public String apasionate(){
+         String apasionate = "Me gusta el cine";
+         return apasionate;
+     } 
 }
