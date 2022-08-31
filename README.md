@@ -2,6 +2,10 @@
 
 En este primer taller ser crean las clases ("Bank", "SavingAccount", "Cliente", "Programador", "Main").
 
+<strong>Presentacion Taller 1</strong>
+
+https://www.youtube.com/watch?v=tqp30FZKeuw&t=103s
+
 La clase "Bank" es una super clase y se ha puesto como clase abstracta con un metodo abstracto "consignacion()", se crean
 sus metodos get y set para los atributos que estan como privados en su modo de acceso, con los atributos ("nameBank",
 "city", "branch").
